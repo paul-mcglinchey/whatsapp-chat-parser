@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "WhatsappChatParser": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\paulm\\projects\\Personal\\whatsapp-chat-parser\\WhatsappChatParser\\WhatsappChatParser\\bin\\Debug\\net6.0\\WhatsappChatParser.exe"
+    }
+  }
+}

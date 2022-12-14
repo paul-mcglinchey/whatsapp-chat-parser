@@ -8,7 +8,7 @@ var messages = new List<Message>();
 
 foreach (var line in input)
 {
-    var match = Regex.Match(line, @"\d{2}\/\d{2}\/\d{4}, \d{2}:\d{2} - \w* \w*:");
+    var match = Regex.Match(line, @"\d{2}\/\d{2}\/\d{4}, \d{2}:\d{2} - [(\w* )(\w*)]+:");
 
     if (!match.Success)
     {
